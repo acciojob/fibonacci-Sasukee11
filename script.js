@@ -1,13 +1,11 @@
 function fibonacci(num) {
 // your code here
-	if(num==1){
-		return 0;
-	}
-	if(num==2){
-		return 1;
-	}
-
-	return fibonacci(num-1) + fibonacci(num-2);
+	for (let i = 1; i <= number; i++) {
+    console.log(n1);
+    nextTerm = n1 + n2;
+    n1 = n2;
+    n2 = nextTerm;
+}
 }
 
 module.exports = fibonacci;
